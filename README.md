@@ -4,7 +4,7 @@ This gem provides a way to figure out what tag version is most recent.
 
 ## Installation
 ```ruby
-gem install tag_comparer # NOT UPLOADED YET!!
+gem install tag_comparer
 ```
 
 ## Examples    
