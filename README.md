@@ -14,6 +14,9 @@ TagComparer.get_latest('v1','v2','v3','v3.1') # returns 'v3.1'
 TagComparer.get_latest('v1.3.1', 'v1.3') # returns 'v1.3.1'
 TagComparer.get_latest('v1.3.beta10', 'v1.3.beta9') # returns 'v1.3.beta10'
 TagComparer.get_latest('v1.3.rc1', 'v1.3.beta2') # returns 'v1.3.rc1'
+
+# Can also pass in one or more arrays
+TagComparer.get_latest(['v1','v2','v3'],) # returns 'v3'
 ```
 
 ## Version Prefixes/Suffixes Support
