@@ -4,10 +4,11 @@ This gem provides a way to compare a list of tag versions to find out which one
 is the most recent tag.
 
 ##Installation
-
+```ruby
     gem install tag_comparer # NOT UPLOADED YET!!
 
 ## Examples    
+```ruby
     TagComparer.get_latest('v1.6', 'v1.4') # returns 'v1.6'
     TagComparer.get_latest('v1','v2','v3','v3.1') # returns 'v3.1'
     TagComparer.get_latest('v1.3.1', 'v1.3') # returns 'v1.3.1'
